@@ -16,7 +16,7 @@ import { db } from "../src/firebase"
 export const Context = createContext();
 
 function App() {
-
+  
   const [user, setUser] = useState(sessionStorage.getItem("user"))
 
   const [currentUser, setCurrentUser] = useState(user);
